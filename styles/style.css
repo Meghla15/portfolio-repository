@@ -4,9 +4,15 @@
 }
 header{
     background-color: #FFF8F3;
-   
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, left;
+}
+.section-title{
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
 }
 .nav-title{
     font-size: 30px;
@@ -40,8 +46,130 @@ nav a{
     color: white;
 
 }
+.second-btn{
+    padding: 15px 35px;
+    font-size: 20px;
+    color: orangered;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 15px;
+   
+}
 .banner{
-    padding: 30px 30px 30px 205px;
+    padding: 30px 30px 0px 205px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.banner-greeting{
+    font-size: 36px;
+    font-weight: 400px;
+    color:black;
+    
+}
+.banner-content{
+    max-width: 500px;
+}
+.banner-title{
+    font-size: 64px;
+    font-weight: 500px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-description{
+    width: 550px;
+}
+/* main section */
+  main{
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  main section{
+    margin-top: 130px;
+  }
+/* about section */
+.about{
+    border-radius: 10px;
+background: #FFF8F3;
+padding: 100px;
+margin: 130px ;
+}
+.section-description{
+    color: #757575;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; 
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+    color: #757575;
+text-align: center;
+
+
+}
+.info-description{
+    color: #474747;
+    font-weight: bolder;
+
+}
+
+/* what i do */
+#what-i-do{
+   padding: 30px 150px; 
+}
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    width: 267px;
+height: 377px;
+border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+padding: 30px;
+
+}
+.skill-description{
+    color: var(--Dark-03, #757575);
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+
+}
+.resume-column-title{
+    color: var(--Dark-02, #474747);
+font-size: 30px;
+font-weight: 700;
+}
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+.resume-title-info{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 20px;
+}
+.footer{
+    background: #FFF8F3;
+    display: flex;
+    padding: 130px;
+}
+.footer-column{
+   
+}
+.form{
+    display: block;
+
 }
